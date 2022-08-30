@@ -7,7 +7,6 @@ iso/
 
 # Vagrant
 *.vagrant
-.vagrant/
 *.box
 box/
 
