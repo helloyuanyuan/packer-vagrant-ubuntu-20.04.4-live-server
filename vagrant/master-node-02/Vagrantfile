@@ -1,12 +1,12 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu20044liveserver"
-  config.vm.define "ubuntu2004master"
-  config.vm.hostname = "ubuntu2004master"
+  config.vm.define "ubuntu2004master02"
+  config.vm.hostname = "ubuntu2004master02"
 
   config.vm.network "public_network"
 
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "ubuntu2004master"
+    vb.name = "ubuntu2004master02"
     vb.memory = 4096
     vb.cpus = 2
   end
